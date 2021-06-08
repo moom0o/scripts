@@ -36,6 +36,10 @@ services:
         https_only: false
         domain: invidious.moomoo.me
         statistics_enabled: true
+        default_user_preferences:
+          dark_mode: true
+          comments: ["youtube",""]
+          quality: "dash"
     depends_on:
       - postgres
 
