@@ -1,0 +1,13 @@
+[Unit]
+Description=minetrack server
+Documentation=https://example.com
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/MOO/Minetrack5/Minetrack/
+ExecStart=/usr/bin/bash /root/MOO/Minetrack5/Minetrack/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
