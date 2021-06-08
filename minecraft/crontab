@@ -1,0 +1,4 @@
+@reboot tmux new-session -s mc -d /usr/bin/bash /home/moo/MOO/start.sh
+@reboot tmux new-session -s mc_waterfall -d /usr/bin/bash /home/moo/MOO_OTHERSERVERS/Waterfall/start.sh
+@reboot tmux new-session -s mc_auth -d /usr/bin/bash /home/moo/MOO_OTHERSERVERS/Auth/start.sh
+@reboot tmux new-session -s mc_premium -d /usr/bin/bash /home/moo/MOO_OTHERSERVERS/Waterfall/Premium/start.sh
