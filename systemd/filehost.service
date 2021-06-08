@@ -1,0 +1,13 @@
+[Unit]
+Description=moos encrypted file host
+Documentation=https://example.com
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/moo/filehost/
+ExecStart=/bin/bash /home/moo/filehost/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
