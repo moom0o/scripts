@@ -40,6 +40,7 @@ services:
           dark_mode: true
           comments: ["youtube",""]
           quality: "dash"
+          local: true
     depends_on:
       - postgres
 
