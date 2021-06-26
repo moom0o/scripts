@@ -5,3 +5,6 @@ autoreconf -i
 ./configure
 make
 cp ./src/aria2c /usr/bin/
+cd ..
+rm -rf aria2
+echo "Setup of aria2c complete!"
