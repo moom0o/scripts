@@ -1,6 +1,6 @@
 @reboot tmux new-session -s 9b9t -d /bin/bash /root/MOO/moobot/9b9t/start.sh
 @reboot tmux new-session -s constantiam -d /bin/bash /root/MOO/moobot/constantiam/start.sh
-#@reboot tmux new-session -s 0b0t -d /bin/bash /root/MOO/moobot/0b0t/start.sh
+@reboot tmux new-session -s 0b0t -d /bin/bash /root/MOO/moobot/0b0t/start.sh
 #@reboot tmux new-session -s 6b6t -d /bin/bash /root/MOO/mcdiscordchat6b6t/start.sh
 @reboot tmux new-session -s 8b8t -d /bin/bash /root/MOO/moobot/8b8t/start.sh
 @reboot tmux new-session -s 5b5t -d /bin/bash /root/MOO/moobot/5b5t/start.sh
@@ -8,7 +8,7 @@
 @reboot tmux new-session -s ecrystal -d /bin/bash /root/MOO/moobot/ecrystal/start.sh
 #@reboot tmux new-session -s matrix -d /bin/bash /root/MOO/moobot/matrix/start.sh
 #@reboot tmux new-session -s hisparquia -d /bin/bash /root/MOO/moobot/hisparquia/start.sh
-@reboot tmux new-session -s api -d /bin/bash /root/MOO/moobot/API/start.sh
+#@reboot tmux new-session -s api -d /bin/bash /root/MOO/moobot/API/start.sh
 @reboot tmux new-session -s 1b1t -d /bin/bash /root/MOO/moobot/1b1t/start.sh
 @reboot tmux new-session -s 2b2tjp -d /bin/bash /root/MOO/moobot/2b2tjp/start.sh
 #@reboot tmux new-session -s aussie -d /bin/bash /root/MOO/aussie/start.sh
@@ -17,5 +17,6 @@
 @reboot tmux new-session -s openanarchy -d /bin/bash /root/MOO/moobot/openanarchy/start.sh
 @reboot tmux new-session -s 2b2t -d /bin/bash /root/MOO/moobot/2b2t/start.sh
 @reboot tmux new-session -s 2b2tcomau -d /bin/bash /root/MOO/moobot/2b2tcomau/start.sh
+#@reboot tmux new-session -s 7b7t -d /bin/bash /root/MOO/moobot/7b7t/start.sh
 #@reboot tmux new-session -s 2b2t -d /bin/bash /root/MOO/2b2t/start.sh
 #@reboot tmux new-session -s 2b2t2 -d /bin/bash /root/MOO/2b2t2/start.sh
