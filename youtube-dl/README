@@ -16,3 +16,6 @@ How to use:
 12: Run 'bash download.sh https://www.youtube.com/user/CHANNEL_URL/videos ARCHIVEORGCOLLECTIONURL' make sure to replace the youtube link with the one you want to archive, and replace ARCHIVEORGCOLLECTIONURL with the text you copied above. You can also upload a single video if you'd like.
 
 Once each video fully downloads and uploads to archive.org, it will automatically be deleted from your system to save storage. Your video will show up on the archive.org collection in a couple of minutes to an hour, depending on how busy archive.org is. You can check status by clicking History on the collection page.
+
+
+If possible, please donate to archive.org at https://archive.org/donate for providing storage.
