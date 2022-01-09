@@ -18,5 +18,6 @@ How to use:
 Once each video fully downloads and uploads to archive.org, it will automatically be deleted from your system to save storage. Your video will show up on the archive.org collection in a couple of minutes to an hour, depending on how busy archive.org is. You can check status by clicking History on the collection page.
 
 It helps to have a VPS as close as possible to archive.org's servers (California). My VPS is in NYC and gets 40MiB/s to archive.org. A server in Germany for example will only be in the Kilobytes.
+If you need a great unmetered bandwidth vps that accepts crypto, please use my buyvm affiliate link: https://my.frantech.ca/aff.php?aff=4697
 
 If possible, please donate to archive.org at https://archive.org/donate for providing storage.
