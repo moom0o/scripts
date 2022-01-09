@@ -1,0 +1,18 @@
+My yt-dlp scripts
+
+How to use:
+
+1: Make sure you have download.sh and upload.sh in the same folder, the rest of the scripts aren't neccessary.
+2: Make sure yt-dlp is installed, download at https://github.com/yt-dlp/yt-dlp
+3: Make sure internet archive cli is installed, download at https://archive.org/services/docs/api/internetarchive/installation.html
+4: Create an archive.org account.
+5: Run 'ia configure', follow the onscreen prompts and input your archive.org email and password. Press enter. You should be all set now.
+6: Once done creating an archive.org account, click 'UPLOAD' in the top right corner of archive.org.
+7: Click "UPLOAD FILES"
+8: Upload anything, we need to upload something in order to create the collection, you can simply upload a text file, the rest will be accomplished with the CLI.
+9: Fill out proper metadata for the youtube channel/video you are archiving, try to give as many tags as possible, channel creation date, and description of the channel. Also make sure to choose "Community Movies" collection.
+10: Click "Upload and Create Your Item", and wait. This may take a couple minutes depending on how busy archive.org is.
+11: Once finished uploading, copy the text in the url AFTER THE PART: 'https://archive.org/details/'. This is important for adding to the command of the script.
+12: Run 'bash download.sh https://www.youtube.com/user/CHANNEL_URL/videos ARCHIVEORGCOLLECTIONURL' make sure to replace the youtube link with the one you want to archive, and replace ARCHIVEORGCOLLECTIONURL with the text you copied above. You can also upload a single video if you'd like.
+
+Once each video fully downloads and uploads to archive.org, it will automatically be deleted from your system to save storage. Your video will show up on the archive.org collection in a couple of minutes to an hour, depending on how busy archive.org is. You can check status by clicking History on the collection page.
