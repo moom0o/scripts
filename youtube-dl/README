@@ -1,7 +1,7 @@
 My yt-dlp scripts
 
 How to use:
-
+You may need an updated ffmpeg version to merge videos to mp4. Download the latest xz release tarbell at the bottom of https://ffmpeg.org/download.html, extract it with tar -xf file.xz, then move the ffmpeg file to /usr/bin/.
 1: Make sure you have download.sh and upload.sh in the same folder, the rest of the scripts aren't neccessary.
 2: Make sure yt-dlp is installed, download at https://github.com/yt-dlp/yt-dlp
 3: Make sure internet archive cli is installed, download at https://archive.org/services/docs/api/internetarchive/installation.html
